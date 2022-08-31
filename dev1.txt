@@ -1,0 +1,14 @@
+# Creating files
+
+# touch test.txt (used to create empty file)
+# echo "This is my work" > mekzy.txt (> used to read into a file)
+# cat > hello.py (used to create a file)
+# cat filename (used to read content in files)
+# vi (use to write into a file) options: e.g vi house.txt
+#    1. command mode
+#    2. insert mode:
+#      before typing your data,
+#       -type 'i' to enter insert mode
+#       -type 'esc' key to enter command mode back
+#      -type ':wq' and press enter to save
+#      -type ':q!' and press enter to quit without saving
