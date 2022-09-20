@@ -7,6 +7,11 @@ pipeline {
                 echo 'Building..'
             }
         }
+        stage('Example') {
+            steps {
+                echo "${params.Greeting} World!"
+            }
+        }
         stage('Pre-Test') {
             steps {
                 echo 'Pre-Testing..'
