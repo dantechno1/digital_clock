@@ -7,6 +7,11 @@ pipeline {
                 echo 'Building..'
             }
         }
+        stage('Pre-Test') {
+            steps {
+                echo 'Pre-Testing..'
+            }
+        }
         stage('Test') {
             steps {
                 echo 'Testing..'
