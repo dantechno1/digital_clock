@@ -12,8 +12,8 @@ pipeline {
                 echo "${params.Greeting} World!"
             }
         }
-        stage('Pre-Test') {
-            steps {
+        stage('Pre-Test') 
+            steps 
                 echo 'Pre-Testing..'
             }
         }
